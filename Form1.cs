@@ -23,7 +23,7 @@ namespace test_video_smoke
 
         public override string ToString()
         {
-            string status = smoke ? "smoke appears" : "smoke disappears";
+            string status = smoke ? "object appears" : "object disappears";
             return $"[{frame}] {status}";
         }
     }

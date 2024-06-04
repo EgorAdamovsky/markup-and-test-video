@@ -112,11 +112,13 @@ namespace test_video_smoke
             // 
             // _list
             // 
+            this._list.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this._list.FormattingEnabled = true;
+            this._list.ItemHeight = 12;
             this._list.Location = new System.Drawing.Point(340, 100);
             this._list.Margin = new System.Windows.Forms.Padding(5);
             this._list.Name = "_list";
-            this._list.Size = new System.Drawing.Size(120, 173);
+            this._list.Size = new System.Drawing.Size(120, 172);
             this._list.TabIndex = 6;
             // 
             // _start
@@ -128,7 +130,7 @@ namespace test_video_smoke
             this._start.Name = "_start";
             this._start.Size = new System.Drawing.Size(120, 30);
             this._start.TabIndex = 7;
-            this._start.Text = "Smoke appears";
+            this._start.Text = "Object appears";
             this._start.UseVisualStyleBackColor = true;
             this._start.Click += new System.EventHandler(this._start_Click);
             // 
@@ -141,7 +143,7 @@ namespace test_video_smoke
             this._stop.Name = "_stop";
             this._stop.Size = new System.Drawing.Size(120, 30);
             this._stop.TabIndex = 8;
-            this._stop.Text = "Smoke disappears";
+            this._stop.Text = "Object disappears";
             this._stop.UseVisualStyleBackColor = true;
             this._stop.Click += new System.EventHandler(this._stop_Click);
             // 
